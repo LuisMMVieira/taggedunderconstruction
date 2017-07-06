@@ -59,7 +59,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 
 html {
-	font-family: sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
@@ -111,16 +113,16 @@ abbr[title] {
 
 b,
 strong {
-	font-weight: 700;
+	
 }
 
 small {
-	font-size: 80%;
+	font-size: 15px;
 }
 
 sub,
 sup {
-	font-size: 75%;
+	font-size: 15px;
 	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
@@ -156,7 +158,7 @@ code,
 kbd,
 pre,
 samp {
-	font-size: 1em;
+	font-size: 15px;
 }
 
 button,
@@ -259,7 +261,7 @@ textarea {
 }
 
 optgroup {
-	font-weight: bold;
+	
 }
 
 
@@ -304,9 +306,10 @@ input,
 select,
 textarea {
 	color: #1a1a1a;
-	font-family: Merriweather, Georgia, serif;
-	font-size: 16px;
-	font-size: 1rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	line-height: 1.75;
 }
 
@@ -317,7 +320,7 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-weight: 700;
+	
 	margin: 0;
 	text-rendering: optimizeLegibility;
 }
@@ -337,9 +340,7 @@ blockquote {
 	border: 0 solid #1a1a1a;
 	border-left-width: 4px;
 	color: #686868;
-	font-size: 19px;
-	font-size: 1.1875rem;
-	font-style: italic;
+	font-size: 15px;
 	line-height: 1.4736842105;
 	margin: 0 0 1.4736842105em;
 	overflow: hidden;
@@ -366,8 +367,7 @@ blockquote cite,
 blockquote small {
 	color: #1a1a1a;
 	display: block;
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 15px;
 	line-height: 1.75;
 }
 
@@ -402,13 +402,14 @@ tt,
 var,
 samp,
 pre {
-	font-family: Inconsolata, monospace;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 }
 
 pre {
 	border: 1px solid #d1d1d1;
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 15px;
 	line-height: 1.3125;
 	margin: 0 0 1.75em;
 	max-width: 100%;
@@ -439,7 +440,7 @@ ins {
 }
 
 big {
-	font-size: 125%;
+	font-size: 15px;
 }
 
 
@@ -499,7 +500,7 @@ dl {
 }
 
 dt {
-	font-weight: 700;
+	
 }
 
 dd {
@@ -543,7 +544,7 @@ td {
 
 th {
 	border-width: 0 1px 1px 0;
-	font-weight: 700;
+	
 }
 
 td {
@@ -558,24 +559,32 @@ td {
 /* Placeholder text color -- selectors need to be separate to work. */
 ::-webkit-input-placeholder {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 }
 
 :-moz-placeholder {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 }
 
 ::-moz-placeholder {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 	opacity: 1;
 	/* Since FF19 lowers the opacity of the placeholder by default */
 }
 
 :-ms-input-placeholder {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 }
 
 
@@ -603,8 +612,9 @@ input[type="submit"][disabled]:focus {
 	border: 0;
 	border-radius: 2px;
 	color: #fff;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-weight: 700;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 	letter-spacing: 0.046875em;
 	line-height: 1;
 	padding: 0.84375em 0.875em 0.78125em;
@@ -678,9 +688,10 @@ textarea:focus {
 .post-password-form label {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	letter-spacing: 0.076923077em;
 	line-height: 1.6153846154;
 	margin-bottom: 1.75em;
@@ -707,7 +718,7 @@ input[type="search"].search-field {
 
 .search-submit:before {
 	content: "\f400";
-	font-size: 24px;
+	font-size: 15px;
 	left: 2px;
 	line-height: 42px;
 	position: relative;
@@ -802,7 +813,9 @@ a:active {
 }
 
 .main-navigation {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 }
 
 .site-footer .main-navigation {
@@ -834,7 +847,7 @@ a:active {
 
 .main-navigation .current-menu-item > a,
 .main-navigation .current-menu-ancestor > a {
-	font-weight: 700;
+	
 }
 
 .main-navigation ul ul {
@@ -877,7 +890,7 @@ a:active {
 	border: 0 solid #d1d1d1;
 	border-left-width: 1px;
 	content: "\f431";
-	font-size: 24px;
+	font-size: 15px;
 	left: 1px;
 	position: relative;
 	width: 48px;
@@ -1056,7 +1069,9 @@ a:active {
 	border-top: 4px solid #1a1a1a;
 	border-bottom: 4px solid #1a1a1a;
 	clear: both;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 	margin: 0 7.6923% 3.5em;
 }
 
@@ -1072,20 +1087,17 @@ a:active {
 
 .post-navigation .meta-nav {
 	color: #686868;
-	font-size: 13px;
-	font-size: 0.8125rem;
-	letter-spacing: 0.076923077em;
+	font-size: 15px;
 	line-height: 1.6153846154;
-	margin-bottom: 0.5384615385em;
 	text-transform: uppercase;
 }
 
 .post-navigation .post-title {
 	display: inline;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 23px;
-	font-size: 1.4375rem;
-	font-weight: 700;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	line-height: 1.2173913043;
 	text-rendering: optimizeLegibility;
 }
@@ -1101,9 +1113,10 @@ a:active {
 
 .pagination {
 	border-top: 4px solid #1a1a1a;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 19px;
-	font-size: 1.1875rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	margin: 0 7.6923% 2.947368421em;
 	min-height: 56px;
 	position: relative;
@@ -1141,8 +1154,7 @@ a:active {
 .pagination .nav-links:before,
 .pagination .nav-links:after {
 	color: #fff;
-	font-size: 32px;
-	line-height: 51px;
+	font-size: 15px;
 	opacity: 0.3;
 	position: absolute;
 	width: 52px;
@@ -1175,7 +1187,7 @@ a:active {
 
 .pagination .current {
 	display: inline-block;
-	font-weight: 700;
+	
 }
 
 .pagination .prev,
@@ -1195,7 +1207,7 @@ a:active {
 
 .pagination .prev:before,
 .pagination .next:before {
-	font-size: 32px;
+	font-size: 15px;
 	height: 53px;
 	line-height: 52px;
 	position: relative;
@@ -1240,9 +1252,10 @@ a:active {
 	border-top: 1px solid #d1d1d1;
 	border-bottom: 1px solid #d1d1d1;
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	line-height: 1.6153846154;
 	margin: 0 7.6923% 2.1538461538em;
 	padding: 1.0769230769em 0;
@@ -1296,9 +1309,10 @@ a:active {
 	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
 	color: #21759b;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 14px;
-	font-weight: 700;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	left: -9999em;
 	outline: none;
 	padding: 15px 23px 14px;
@@ -1309,7 +1323,9 @@ a:active {
 
 .logged-in .site .skip-link {
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
-	font-family: "Open Sans", sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 }
 
 .site .skip-link:focus {
@@ -1416,9 +1432,10 @@ blockquote:after,
 }
 
 .widget .widget-title {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 16px;
-	font-size: 1rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	letter-spacing: 0.046875em;
 	line-height: 1.3125;
 	margin: 0 0 1.75em;
@@ -1454,7 +1471,7 @@ blockquote:after,
 	background-color: #007acc;
 	color: #fff;
 	display: block;
-	font-weight: 700;
+	
 }
 
 .widget_calendar tbody a:hover,
@@ -1467,9 +1484,10 @@ blockquote:after,
 .widget_recent_entries .post-date {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	    font-size: 15px;
 	line-height: 1.615384615;
 	margin-bottom: 0.538461538em;
 }
@@ -1487,9 +1505,10 @@ blockquote:after,
 .widget_rss cite {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	font-style: normal;
 	line-height: 1.615384615;
 	margin-bottom: 0.538461538em;
@@ -1508,7 +1527,9 @@ blockquote:after,
 	border: 1px solid #d1d1d1;
 	border-radius: 2px;
 	display: inline-block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
 	line-height: 1;
 	margin: 0 0.1875em 0.4375em 0;
 	padding: 0.5625em 0.4375em 0.5em;
@@ -1591,10 +1612,11 @@ blockquote:after,
 }
 
 .site-title {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 23px;
-	font-size: 1.4375rem;
-	font-weight: 700;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	
 	line-height: 1.2173913043;
 	margin: 0;
 }
@@ -1615,8 +1637,7 @@ blockquote:after,
 .site-description {
 	color: #686868;
 	display: none;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 1.0769230769;
 	margin: 0.538461538em 0 0;
@@ -1626,8 +1647,7 @@ blockquote:after,
 	background-color: transparent;
 	border: 1px solid #d1d1d1;
 	color: #1a1a1a;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 15px;
 	margin: 1.076923077em 0;
 	padding: 0.769230769em;
 }
@@ -1692,10 +1712,11 @@ blockquote:after,
 }
 
 .entry-title {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 28px;
-	font-size: 1.75rem;
-	font-weight: 700;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	
 	line-height: 1.25;
 	margin-bottom: 1em;
 }
@@ -1736,8 +1757,7 @@ a.post-thumbnail:focus {
 .entry-summary h1,
 .comment-content h1,
 .textwidget h1 {
-	font-size: 28px;
-	font-size: 1.75rem;
+	font-size: 15px;
 	line-height: 1.25;
 	margin-top: 2em;
 	margin-bottom: 1em;
@@ -1747,8 +1767,7 @@ a.post-thumbnail:focus {
 .entry-summary h2,
 .comment-content h2,
 .textwidget h2 {
-	font-size: 23px;
-	font-size: 1.4375rem;
+	font-size: 15px;
 	line-height: 1.2173913043;
 	margin-top: 2.4347826087em;
 	margin-bottom: 1.2173913043em;
@@ -1758,8 +1777,7 @@ a.post-thumbnail:focus {
 .entry-summary h3,
 .comment-content h3,
 .textwidget h3 {
-	font-size: 19px;
-	font-size: 1.1875rem;
+	font-size: 15px;
 	line-height: 1.1052631579;
 	margin-top: 2.9473684211em;
 	margin-bottom: 1.4736842105em;
@@ -1777,8 +1795,7 @@ a.post-thumbnail:focus {
 .textwidget h4,
 .textwidget h5,
 .textwidget h6 {
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 15px;
 	line-height: 1.3125;
 	margin-top: 3.5em;
 	margin-bottom: 1.75em;
@@ -1864,8 +1881,7 @@ a.post-thumbnail:focus {
 
 body:not(.search-results) .entry-summary {
 	color: #686868;
-	font-size: 19px;
-	font-size: 1.1875rem;
+	font-size: 15px;
 	line-height: 1.4736842105;
 	margin-bottom: 1.4736842105em;
 }
@@ -1955,7 +1971,7 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .entry-content .author-title {
 	clear: none;
-	font-size: 16px;
+	font-size: 15px;
 	font-size: 1rem;
 	font-weight: 900;
 	line-height: 1.75;
@@ -1964,7 +1980,7 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .author-bio {
 	color: #686868;
-	font-size: 13px;
+	font-size: 15px;
 	font-size: 0.8125rem;
 	line-height: 1.6153846154;
 	margin-bottom: 1.6153846154em;
@@ -1977,8 +1993,10 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .entry-footer {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	font-size: 0.8125rem;
 	line-height: 1.6153846154;
 	margin-top: 2.1538461538em;
@@ -2013,9 +2031,10 @@ body:not(.search-results) .entry-summary > :last-child,
 .sticky-post {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
 	letter-spacing: 0.076923077em;
 	line-height: 1.6153846154;
 	margin-bottom: 0.5384615385em;
@@ -2053,16 +2072,16 @@ body.search-no-results .page-header {
 }
 
 .page-title {
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 23px;
-	font-size: 1.4375rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
 	line-height: 1.2173913043;
 }
 
 .taxonomy-description {
 	color: #686868;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 15px;
 	line-height: 1.6153846154;
 }
 
@@ -2085,8 +2104,7 @@ body.search-no-results .page-header {
 	border: 1px solid #d1d1d1;
 	border-radius: 2px;
 	display: inline-block;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 15px;
 	height: 1.8461538462em;
 	line-height: 1.6923076923em;
 	margin-right: 0.3076923077em;
@@ -2122,8 +2140,7 @@ body.search-no-results .page-header {
 
 .entry-caption {
 	color: #686868;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 15px;
 	font-style: italic;
 	line-height: 1.6153846154;
 	padding-top: 1.0769230769em;
@@ -2183,10 +2200,11 @@ body.search-no-results .page-header {
 .comments-title,
 .comment-reply-title {
 	border-top: 4px solid #1a1a1a;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 23px;
-	font-size: 1.4375rem;
-	font-weight: 700;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+font-style: normal;
+font-weight: 400;
+	font-size: 28px;
+	
 	line-height: 1.3125;
 	padding-top: 1.217391304em;
 }
@@ -2239,9 +2257,10 @@ body.search-no-results .page-header {
 .comment-metadata,
 .pingback .edit-link {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+font-style: normal;
+font-weight: 400;
+	font-size: 15px;
 	line-height: 1.6153846154;
 }
 
@@ -2289,9 +2308,10 @@ body.search-no-results .page-header {
 	border-radius: 2px;
 	color: #007acc;
 	display: inline-block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+font-style: normal;
+font-weight: 400;
+	font-size: 15px;
 	line-height: 1;
 	margin-top: 2.1538461538em;
 	padding: 0.5384615385em 0.5384615385em 0.4615384615em;
@@ -2311,10 +2331,10 @@ body.search-no-results .page-header {
 .comment-form label {
 	color: #686868;
 	display: block;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
-	letter-spacing: 0.076923077em;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+font-style: normal;
+font-weight: 400;
+	font-size: 15px;
 	line-height: 1.6153846154;
 	margin-bottom: 0.5384615385em;
 	text-transform: uppercase;
@@ -2329,16 +2349,17 @@ body.search-no-results .page-header {
 .logged-in-as,
 .form-allowed-tags {
 	color: #686868;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 15px;
 	line-height: 1.6153846154;
 	margin-bottom: 2.1538461538em;
 }
 
 .no-comments {
 	border-top: 1px solid #d1d1d1;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-weight: 700;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+font-style: normal;
+font-weight: 400;
+	
 	margin: 0;
 	padding-top: 1.75em;
 }
@@ -2349,7 +2370,9 @@ body.search-no-results .page-header {
 }
 
 .form-allowed-tags code {
-	font-family: Inconsolata, monospace;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+font-style: normal;
+font-weight: 400;
 }
 
 .form-submit {
@@ -2358,7 +2381,9 @@ body.search-no-results .page-header {
 
 .required {
 	color: #007acc;
-	font-family: Merriweather, Georgia, serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+font-style: normal;
+font-weight: 400;
 }
 
 .comment-reply-title small {
@@ -2380,7 +2405,7 @@ body.search-no-results .page-header {
 
 .comment-reply-title small a:before {
 	content: "\f405";
-	font-size: 32px;
+	font-size: 15px;
 	position: relative;
 	top: -5px;
 }
@@ -2406,8 +2431,7 @@ body.search-no-results .page-header {
 
 .site-info {
 	color: #686868;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 15px;
 	line-height: 1.6153846154;
 }
 
@@ -2429,7 +2453,9 @@ body.search-no-results .page-header {
 .site-footer .site-title:after {
 	content: "\002f";
 	display: inline-block;
-	font-family: Montserrat, sans-serif;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+font-style: normal;
+font-weight: 400;
 	opacity: 0.7;
 	padding: 0 0.307692308em 0 0.538461538em;
 }
@@ -2523,9 +2549,7 @@ p > video {
 
 .wp-caption .wp-caption-text {
 	color: #686868;
-	font-size: 13px;
-	font-size: 0.8125rem;
-	font-style: italic;
+	font-size: 15px;
 	line-height: 1.6153846154;
 	padding-top: 0.5384615385em;
 }
@@ -2587,8 +2611,7 @@ p > video {
 .gallery-caption {
 	color: #686868;
 	display: block;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 15px;
 	font-style: italic;
 	line-height: 1.6153846154;
 	padding-top: 0.5384615385em;
@@ -2629,9 +2652,8 @@ p > video {
 }
 
 .widecolumn h2 {
-	font-size: 23px;
-	font-size: 1.4375rem;
-	font-weight: 900;
+	font-size: 15px;
+	font-weight: 400;
 	line-height: 1.2173913043;
 	margin-bottom: 1.2173913043em;
 }
@@ -2647,9 +2669,10 @@ p > video {
 .widecolumn label,
 .widecolumn .mu_register label {
 	color: #686868;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-family: "Knockout 32 A", "Knockout 32 B";
+font-style: normal;
+font-weight: 400;
+	font-size: 15px;
 	font-weight: 400;
 	letter-spacing: 0.076923077em;
 	line-height: 1.6153846154;
@@ -2669,8 +2692,7 @@ p > video {
 .widecolumn .mu_register #user_email,
 .widecolumn .mu_register #blogname,
 .widecolumn .mu_register #user_name {
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 15px;
 	width: 100%;
 }
 
@@ -2686,8 +2708,7 @@ p > video {
 
 .widecolumn #submit,
 .widecolumn .mu_register input[type="submit"] {
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 15px;
 	margin: 0;
 	width: auto;
 }
@@ -2727,33 +2748,7 @@ p > video {
  */
 
 @media screen and (min-width: 44.375em) {
-	body:not(.custom-background-image):before,
-	body:not(.custom-background-image):after {
-		background: inherit;
-		content: "";
-		display: block;
-		height: 21px;
-		left: 0;
-		position: fixed;
-		width: 100%;
-		z-index: 99;
-	}
 
-	body:not(.custom-background-image):before {
-		top: 0;
-	}
-
-	body:not(.custom-background-image).admin-bar:before {
-		top: 46px;
-	}
-
-	body:not(.custom-background-image):after {
-		bottom: 0;
-	}
-
-	.site {
-		margin: 21px;
-	}
 
 	.site-main {
 		margin-bottom: 5.25em;
@@ -2773,8 +2768,7 @@ p > video {
 	}
 
 	.site-title {
-		font-size: 28px;
-		font-size: 1.75rem;
+		font-size: 15px;
 		line-height: 1.25;
 	}
 
@@ -2787,8 +2781,7 @@ p > video {
 	}
 
 	.menu-toggle {
-		font-size: 16px;
-		font-size: 1.0rem;
+		font-size: 15px;
 		margin: 1.3125em 0;
 		padding: 0.8125em 0.875em 0.6875em;
 	}
@@ -2814,8 +2807,7 @@ p > video {
 	}
 
 	.post-navigation .post-title {
-		font-size: 28px;
-		font-size: 1.75rem;
+		font-size: 15px;
 		line-height: 1.25;
 	}
 
@@ -2847,8 +2839,7 @@ p > video {
 	}
 
 	.entry-title {
-		font-size: 33px;
-		font-size: 2.0625rem;
+		font-size: 15px;
 		line-height: 1.2727272727;
 		margin-bottom: 0.8484848485em;
 	}
@@ -3137,8 +3128,7 @@ p > video {
 	}
 
 	.widget {
-		font-size: 13px;
-		font-size: 0.8125rem;
+		font-size: 15px;
 		line-height: 1.6153846154;
 		margin-bottom: 3.230769231em;
 		padding-top: 1.615384615em;
@@ -3165,8 +3155,7 @@ p > video {
 	}
 
 	.widget blockquote {
-		font-size: 16px;
-		font-size: 1rem;
+		font-size: 15px;
 		line-height: 1.3125;
 		margin-bottom: 1.3125em;
 		padding-left: 1.0625em;
@@ -3174,8 +3163,7 @@ p > video {
 
 	.widget blockquote cite,
 	.widget blockquote small {
-		font-size: 13px;
-		font-size: 0.8125rem;
+		font-size: 15px;
 		line-height: 1.6153846154;
 	}
 
@@ -3185,8 +3173,7 @@ p > video {
 	}
 
 	.widget pre {
-		font-size: 13px;
-		font-size: 0.8125rem;
+		font-size: 15px;
 		line-height: 1.6153846154;
 		margin-bottom: 1.6153846154em;
 		padding: 0.5384615385em;
@@ -3201,8 +3188,7 @@ p > video {
 	.widget input,
 	.widget select,
 	.widget textarea {
-		font-size: 13px;
-		font-size: 0.8125rem;
+		font-size: 15px;
 		line-height: 1.6153846154;
 	}
 
@@ -3231,22 +3217,19 @@ p > video {
 	}
 
 	.widget h1 {
-		font-size: 23px;
-		font-size: 1.4375rem;
+		font-size: 15px;
 		line-height: 1.2173913043;
 		margin-bottom: 0.9130434783em;
 	}
 
 	.widget h2 {
-		font-size: 19px;
-		font-size: 1.1875rem;
+		font-size: 15px;
 		line-height: 1.1052631579;
 		margin-bottom: 1.1052631579em;
 	}
 
 	.widget h3 {
-		font-size: 16px;
-		font-size: 1rem;
+		font-size: 15px;
 		line-height: 1.3125;
 		margin-bottom: 1.3125em;
 	}
@@ -3254,8 +3237,7 @@ p > video {
 	.widget h4,
 	.widget h5,
 	.widget h6 {
-		font-size: 13px;
-		font-size: 0.8125rem;
+		font-size: 15px;
 		line-height: 1.6153846154;
 		margin-bottom: 0.9130434783em;
 	}
@@ -3288,7 +3270,7 @@ p > video {
 	}
 
 	.widget .search-submit:before {
-		font-size: 16px;
+		font-size: 15px;
 		left: 1px;
 		line-height: 35px;
 		width: 34px;
@@ -3437,8 +3419,7 @@ p > video {
 	}
 
 	.entry-title {
-		font-size: 40px;
-		font-size: 2.5rem;
+		font-size: 15px;
 		line-height: 1.225;
 		margin-bottom: 1.05em;
 	}
@@ -3452,8 +3433,7 @@ p > video {
 	.format-link .entry-title,
 	.format-audio .entry-title,
 	.format-chat .entry-title {
-		font-size: 23px;
-		font-size: 1.4375em;
+		font-size: 28px;
 		line-height: 1.304347826;
 		margin-bottom: 1.826086957em;
 	}
@@ -3465,8 +3445,7 @@ p > video {
 	.entry-content h1,
 	.entry-summary h1,
 	.comment-content h1 {
-		font-size: 33px;
-		font-size: 2.0625rem;
+		font-size: 15px;
 		line-height: 1.2727272727;
 		margin-top: 1.696969697em;
 		margin-bottom: 0.8484848485em;
@@ -3475,8 +3454,7 @@ p > video {
 	.entry-content h2,
 	.entry-summary h2,
 	.comment-content h2 {
-		font-size: 28px;
-		font-size: 1.75rem;
+		font-size: 15px;
 		line-height: 1.25;
 		margin-top: 2em;
 		margin-bottom: 1em;
@@ -3508,8 +3486,7 @@ p > video {
 	.comment-content h4,
 	.comment-content h5,
 	.comment-content h6 {
-		font-size: 19px;
-		font-size: 1.1875rem;
+		font-size: 15px;
 		line-height: 1.1052631579;
 		margin-top: 2.9473684211em;
 		margin-bottom: 1.473684211em;
@@ -3542,7 +3519,7 @@ p > video {
 
 	body:not(.search-results) article:not(.type-page) .entry-content {
 		float: right;
-		width: 71.42857144%;
+		width: 100%;
 	}
 
 	body:not(.search-results) article:not(.type-page) .entry-content > blockquote.alignleft.below-entry-meta {
@@ -3623,8 +3600,7 @@ p > video {
 
 @media screen and (min-width: 75em) {
 	body:not(.search-results) .entry-summary {
-		font-size: 23px;
-		font-size: 1.4375rem;
+		font-size: 15px;
 		line-height: 1.5217391304;
 		margin-bottom: 1.826086957em;
 	}
@@ -3655,8 +3631,7 @@ p > video {
 	}
 
 	body:not(.search-results) .entry-summary blockquote {
-		font-size: 23px;
-		font-size: 1.4375rem;
+		font-size: 15px;
 		line-height: 1.5217391304;
 		margin: 0 0 1.5217391304em;
 		padding-left: 1.347826087em;
@@ -3672,8 +3647,7 @@ p > video {
 
 	body:not(.search-results) .entry-summary blockquote cite,
 	body:not(.search-results) .entry-summary blockquote small {
-		font-size: 19px;
-		font-size: 1.1875rem;
+		font-size: 15px;
 		line-height: 1.8421052632;
 	}
 
@@ -3683,8 +3657,7 @@ p > video {
 	}
 
 	body:not(.search-results) .entry-summary pre {
-		font-size: 16px;
-		font-size: 1rem;
+		font-size: 15px;
 		line-height: 1.75;
 		margin-bottom: 1.75em;
 		padding: 1.75em;
@@ -3780,11 +3753,11 @@ p > video {
 	.comment-content h5,
 	.comment-content h6,
 	.entry-content .author-title {
-		font-size: 12pt;
+		font-size: 15px;
 	}
 
 	blockquote {
-		font-size: 14.25pt;
+		font-size: 15px;
 	}
 
 	.site-title,
@@ -3794,7 +3767,7 @@ p > video {
 	.entry-summary h2,
 	.comment-content h2,
 	.widecolumn h2 {
-		font-size: 17.25pt;
+		font-size: 15px;
 	}
 
 	.site-description {
@@ -3802,7 +3775,7 @@ p > video {
 	}
 
 	.entry-title {
-		font-size: 24.75pt;
+		font-size: 15px;
 		line-height: 1.2727272727;
 		margin-bottom: 1.696969697em;
 	}
@@ -3816,7 +3789,7 @@ p > video {
 	.format-link .entry-title,
 	.format-audio .entry-title,
 	.format-chat .entry-title {
-		font-size: 17.25pt;
+		font-size: 15px;
 		line-height: 1.304347826;
 		margin-bottom: 1.826086957em;
 	}
@@ -3824,14 +3797,14 @@ p > video {
 	.entry-content h1,
 	.entry-summary h1,
 	.comment-content h1 {
-		font-size: 21pt;
+		font-size: 15px;
 	}
 
 	.entry-content h3,
 	.entry-summary h3,
 	.comment-content h3,
 	body:not(.search-results) .entry-summary {
-		font-size: 14.25pt;
+		font-size: 15px;
 	}
 
 	.site-description,
@@ -3846,7 +3819,7 @@ p > video {
 	.site-info,
 	.wp-caption .wp-caption-text,
 	.gallery-caption {
-		font-size: 9.75pt;
+		font-size: 15px;
 	}
 
 	body,

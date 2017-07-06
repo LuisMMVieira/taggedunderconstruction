@@ -19,6 +19,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6186796/6896572/css/fonts.css" />
 </head>
 
 <body <?php body_class(); ?>>
