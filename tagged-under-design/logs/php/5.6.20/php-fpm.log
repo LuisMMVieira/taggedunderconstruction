@@ -7,3 +7,4 @@
 [12-Jul-2017 20:22:41] NOTICE: fpm is running, pid 29
 [12-Jul-2017 20:22:41] NOTICE: ready to handle connections
 [12-Jul-2017 21:08:28] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[16-Jul-2017 18:22:32] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
