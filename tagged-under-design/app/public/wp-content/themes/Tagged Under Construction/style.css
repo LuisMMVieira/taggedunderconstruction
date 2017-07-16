@@ -3950,3 +3950,12 @@ font-weight: 400;
 		padding: 0;
 	}
 }
+
+/* Personalized */
+
+.tagged a {
+	font-family: "Knockout 30 A", "Knockout 30 B";
+	font-style: normal;
+	font-weight: 400;
+}
+
